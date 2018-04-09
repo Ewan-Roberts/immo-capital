@@ -1,0 +1,14 @@
+{
+  "name": "invest-Yo-self",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon database.js",
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "author": "Ewan",
+  "license": "ISC"
+}
