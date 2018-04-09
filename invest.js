@@ -3,6 +3,8 @@
     
 const request = require('request');
 
+const importantFunction = () =>  console.log('ba' + +'a'+'a')
+
 let properties = [];
 
 const ROI = (amount,years,yeild,rent) =>{
